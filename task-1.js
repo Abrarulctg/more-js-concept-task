@@ -11,4 +11,14 @@ function displayMessageAfter5s() {
 }
 
 
-displayMessageAfter5s()
+// displayMessageAfter5s()
+
+function delayedGreeting(name, delayTime) {
+
+    setTimeout(function () {
+        console.log("Hello", name);
+    }, delayTime);
+}
+
+
+delayedGreeting('Faiza', 2000);
